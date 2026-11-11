@@ -1,0 +1,243 @@
+/*
+Theme Name: TeamPura Child
+Template: astra
+Version: 1.0
+*/
+/* ==========================================
+   TEAM PURA - MIDNIGHT TECH DESIGN
+   UPDATED & FIXED VERSION
+========================================== */
+
+/* GLOBAL HOMEPAGE */
+body.home,
+body.home #page,
+body.home .site,
+body.home .site-content,
+body.home main,
+body.home .site-main,
+body.home .content-area,
+body.home .entry-content,
+body.home .ast-container {
+    background-color: #090d1c !important;
+    color: #f5f7ff !important;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* MAIN SECTIONS */
+body.home .entry-content section,
+body.home .entry-content .wp-block-group,
+body.home .entry-content .wp-block-cover,
+body.home .entry-content .elementor-section,
+body.home .entry-content .elementor-container {
+    color: #f5f7ff !important;
+}
+
+/* HEADER */
+body.home .site-header,
+body.home .main-header-bar {
+    background: #10162b !important;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+body.home .main-header-menu a,
+body.home .site-header a {
+    color: #ffffff !important;
+    transition: .3s ease;
+}
+
+body.home .main-header-menu a:hover,
+body.home .site-header a:hover {
+    color: #00e5ff !important;
+}
+
+/* HEADINGS */
+body.home h1,
+body.home h2,
+body.home h3,
+body.home h4,
+body.home h5,
+body.home h6,
+body.home .entry-title {
+    color: #ffffff !important;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+/* MAIN TITLE */
+body.home h1 {
+    font-size: clamp(36px, 6vw, 68px);
+    letter-spacing: -1.5px;
+}
+
+/* SECTION TITLES */
+body.home h2 {
+    font-size: clamp(28px, 4vw, 42px);
+}
+
+/* PARAGRAPHS */
+body.home p,
+body.home li,
+body.home .entry-content {
+    color: #c5cee3 !important;
+    line-height: 1.8;
+}
+
+/* LINKS */
+body.home .entry-content a {
+    color: #00ddeb !important;
+    transition: .3s ease;
+}
+
+body.home .entry-content a:hover {
+    color: #987cff !important;
+}
+
+/* CONTENT CARDS */
+body.home .entry-content .wp-block-column {
+    background: #17233e !important;
+    border: 1px solid rgba(255,255,255,.10);
+    border-radius: 18px;
+    padding: 24px;
+    transition: .3s ease;
+}
+
+body.home .entry-content .wp-block-column:hover {
+    transform: translateY(-5px);
+    border-color: #00ddeb;
+    box-shadow: 0 12px 30px rgba(0,207,232,.12);
+}
+
+/* HIGHLIGHT TEXT */
+body.home strong {
+    color: #00ddeb !important;
+}
+
+/* BUTTONS */
+body.home .wp-block-button__link,
+body.home a.button,
+body.home button,
+body.home input[type="submit"],
+body.home .ast-button {
+    background: linear-gradient(120deg, #7548ff, #00cfe8) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 50px !important;
+    padding: 13px 28px !important;
+    font-weight: 700;
+    transition: .3s ease;
+}
+
+body.home .wp-block-button__link:hover,
+body.home a.button:hover,
+body.home input[type="submit"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0,207,232,.25);
+}
+
+/* PROJECT IMAGES */
+body.home .entry-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 14px;
+    transition: .3s ease;
+}
+
+body.home .entry-content img:hover {
+    transform: scale(1.02);
+}
+
+/* CONTACT SECTION */
+body.home .entry-content form,
+body.home .entry-content .wpforms-container,
+body.home .entry-content .wpcf7,
+body.home .entry-content .wp-block-contact-form-7-contact-form-selector {
+    background: #111a32 !important;
+    color: #ffffff !important;
+    border-radius: 16px;
+}
+
+/* CONTACT LABELS */
+body.home label {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+/* INPUT FIELDS */
+body.home input:not([type="submit"]),
+body.home textarea,
+body.home select {
+    background: #17233e !important;
+    color: #ffffff !important;
+    border: 1px solid #344563 !important;
+    border-radius: 9px !important;
+    padding: 13px !important;
+}
+
+/* INPUT PLACEHOLDER */
+body.home input::placeholder,
+body.home textarea::placeholder {
+    color: #9ba9c2 !important;
+    opacity: 1;
+}
+
+/* CONTACT CARDS */
+body.home .entry-content .wp-block-column {
+    color: #ffffff !important;
+}
+
+body.home .entry-content .wp-block-column h3 {
+    color: #ffffff !important;
+}
+
+body.home .entry-content .wp-block-column p {
+    color: #c5cee3 !important;
+}
+
+/* SEPARATORS */
+body.home hr,
+body.home .wp-block-separator {
+    border-color: rgba(255,255,255,.15) !important;
+}
+
+/* TESTIMONIALS */
+body.home blockquote {
+    background: #17233e !important;
+    border-left: 4px solid #00cfe8;
+    border-radius: 12px;
+    padding: 24px;
+    color: #c5cee3 !important;
+}
+
+/* FOOTER */
+body.home .site-footer {
+    background: #080c19 !important;
+    color: #ffffff !important;
+    border-top: 1px solid rgba(255,255,255,.08);
+}
+
+body.home .site-footer p,
+body.home .site-footer a {
+    color: #c5cee3 !important;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+    body.home h1 {
+        font-size: 38px;
+        letter-spacing: -1px;
+    }
+
+    body.home h2 {
+        font-size: 28px;
+    }
+
+    body.home .entry-content .wp-block-columns {
+        flex-wrap: wrap !important;
+    }
+
+    body.home .entry-content .wp-block-column {
+        flex-basis: 100% !important;
+        margin-bottom: 20px;
+    }
+}

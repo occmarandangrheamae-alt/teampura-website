@@ -1,0 +1,98 @@
+
+/* =================================
+   EBOJO PORTFOLIO
+   PROJECT MANAGER DESIGN
+================================= */
+
+body.page-ebojoportfolio {
+    background: #f5f3ee;
+    color: #202b40;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADINGS */
+
+.page-ebojoportfolio h1,
+.page-ebojoportfolio h2,
+.page-ebojoportfolio h3 {
+    color: #142443;
+    font-weight: 800;
+}
+
+/* MAIN HEADING */
+
+.page-ebojoportfolio h1 {
+    font-size: clamp(38px, 5vw, 65px);
+    line-height: 1.15;
+    letter-spacing: -2px;
+}
+
+/* SECTION HEADINGS */
+
+.page-ebojoportfolio h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+/* PARAGRAPHS */
+
+.page-ebojoportfolio p {
+    color: #657084;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* IMAGES */
+
+.page-ebojoportfolio img {
+    border-radius: 16px;
+    transition: 0.4s ease;
+}
+
+.page-ebojoportfolio img:hover {
+    transform: translateY(-5px);
+}
+
+/* BUTTONS */
+
+.page-ebojoportfolio .wp-block-button__link {
+    background: #b58b45;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.page-ebojoportfolio .wp-block-button__link:hover {
+    background: #142443;
+    transform: translateY(-3px);
+}
+
+/* CONTENT CARDS */
+
+.page-ebojoportfolio .wp-block-group {
+    transition: 0.3s ease;
+}
+
+.page-ebojoportfolio .wp-block-columns {
+    gap: 25px;
+}
+
+/* LINKS */
+
+.page-ebojoportfolio a {
+    transition: 0.3s ease;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .page-ebojoportfolio h1 {
+        font-size: 38px;
+    }
+
+    .page-ebojoportfolio h2 {
+        font-size: 27px;
+    }
+}
